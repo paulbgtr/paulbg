@@ -1,4 +1,4 @@
-export const Head = () => {
+export const Header = () => {
   return (
     <section>
       <h1 className="text-3xl font-bold ">Paul Bogatyr</h1>
