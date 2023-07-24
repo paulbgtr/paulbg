@@ -1,8 +1,17 @@
+import { Head } from "@/components/index/Head";
+import { Work } from "@/components/index/Work";
+import { Passion } from "@/components/index/Passion";
+import { Connect } from "@/components/index/Connect";
+import { Projects } from "@/components/index/Projects";
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold"> Hello world</h1>
-      <button className="btn">Hello</button>
-    </div>
+    <>
+      <Head />
+      <Work />
+      <Passion />
+      <Connect />
+      <Projects />
+    </>
   );
 }
