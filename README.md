@@ -13,3 +13,5 @@ npm run dev
 ```
 
 ## License
+
+[MIT](https://github.com/Gibsol/paulbg/blob/main/LICENSE)
