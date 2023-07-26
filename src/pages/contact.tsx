@@ -14,7 +14,7 @@ const Contact = () => {
         />
       </Head>
 
-      <div className="justify-self-center w-96">
+      <div className="w-full md:w-72 justify-self-center">
         <Header />
         <ContactForm />
       </div>
