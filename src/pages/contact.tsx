@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Header } from "@/components/contact/Header";
+import { Header } from "@/components/Header";
 import { ContactForm } from "@/components/contact/ContactForm";
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
       </Head>
 
       <div className="w-full md:w-72 justify-self-center">
-        <Header />
+        <Header title="Contact" description="Contact me via email" />
         <ContactForm />
       </div>
     </>
