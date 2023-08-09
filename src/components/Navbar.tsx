@@ -11,7 +11,7 @@ export const Navbar = () => {
       <div className="flex-none">
         <ul className="px-1 menu menu-horizontal">
           <li>
-            <Link href="https://medium.com/@gibsol75">Posts</Link>
+            <Link href="/posts">Posts</Link>
           </li>
         </ul>
       </div>
