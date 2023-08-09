@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 import { Header } from "@/components/Header";
-import { Connect } from "@/components/index/Connect";
-import { Work } from "@/components/index/Work";
-import { Passion } from "@/components/index/Passion";
-import { Projects } from "@/components/index/Projects";
+import { Connect } from "@/components/pageRelated/index/Connect";
+import { Work } from "@/components/pageRelated/index/Work";
+import { Passion } from "@/components/pageRelated/index/Passion";
+import { Projects } from "@/components/pageRelated/index/Projects";
 
 export default function Home() {
   return (
