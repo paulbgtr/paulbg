@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import { Header } from "@/components/Header";
-import { ContactForm } from "@/components/contact/ContactForm";
+import { ContactForm } from "@/components/pageRelated/contact/ContactForm";
 
 const Contact = () => {
   return (
