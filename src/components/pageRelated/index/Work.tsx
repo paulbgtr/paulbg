@@ -5,16 +5,10 @@ export const Work = () => {
       <p>Im an experienced full-stack developer with a strong focus on</p>
       <ul className="list-disc">
         <li>React, Next.js</li>
-        <li>Supabase</li>
-        <li>SQL</li>
-        <li>Java</li>
-      </ul>
-      <p>I also have experience with</p>
-      <ul className="list-disc">
-        <li>Python</li>
-        <li>PHP</li>
-        <li>Rust</li>
-        <li>Node.js</li>
+        <li>PostgreSQL</li>
+        <li>MySQL</li>
+        <li>Node.js, Express</li>
+        <li>Svelte</li>
       </ul>
       <p>
         I thrive in team environments, bringing effective collaboration and
