@@ -18,6 +18,7 @@ export default function Home() {
       </Head>
 
       <Header
+        image
         title="Paul Bogatyr"
         description="Crafting Digital Dreams: Fullstack Web Wizardry"
       >
@@ -25,7 +26,7 @@ export default function Home() {
       </Header>
       <Work />
       <Passion />
-      <Projects />
+      {/* <Projects /> */}
     </>
   );
 }
