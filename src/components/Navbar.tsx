@@ -8,13 +8,6 @@ export const Navbar = () => {
           Paul Bogatyr
         </Link>
       </div>
-      <div className="flex-none">
-        <ul className="px-1 menu menu-horizontal">
-          <li>
-            <Link href="/posts">Posts</Link>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 };
