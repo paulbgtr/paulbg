@@ -5,7 +5,7 @@ export const Navbar = () => {
     <div className="mx-auto max-w-7xl navbar bg-base-100">
       <div className="flex-1">
         <Link href="/" className="text-xl normal-case btn btn-ghost">
-          Paul Bogatyr
+          paulbg
         </Link>
       </div>
       <div className="flex-none">
