@@ -15,6 +15,7 @@ export default function Home() {
           name="description"
           content="Crafting Digital Dreams: Fullstack Web Wizardry"
         />
+        <link rel="icon" href="/pfp.jpeg" />
       </Head>
 
       <Header
