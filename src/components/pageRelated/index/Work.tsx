@@ -8,12 +8,19 @@ export const Work = () => {
         <li>PostgreSQL</li>
         <li>MySQL</li>
         <li>Node.js, Express</li>
-        <li>Svelte</li>
       </ul>
       <p>
-        I thrive in team environments, bringing effective collaboration and
-        problem-solving skills to every project. Lets create something
-        exceptional together!
+        I am also familiar with <span className="font-bold">Rust</span>,{" "}
+        <span className="font-bold">Svelte</span>,{" "}
+        <span className="font-bold">C++</span> and{" "}
+        <span className="font-bold">Java</span>
+      </p>
+      <p className="mt-1">
+        In addition to my technical expertise, I excel in collaborative
+        environments and am well-versed in{" "}
+        <span className="font-bold">Agile</span> methodologies, particularly{" "}
+        <span className="font-bold">Scrum</span>. My ability to work effectively
+        within a team enhances project efficiency and success.
       </p>
     </section>
   );
