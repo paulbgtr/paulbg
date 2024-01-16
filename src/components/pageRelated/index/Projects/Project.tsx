@@ -11,7 +11,7 @@ export const Project = ({
 }) => {
   return (
     <Link className="duration-200 hover:opacity-90" href={link}>
-      <div className="h-full shadow-xl card bg-base-100 image-full">
+      <div className="h-full shadow-md card image-full">
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
           <p>{description}</p>
