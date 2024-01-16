@@ -27,7 +27,7 @@ export default function Home() {
       </Header>
       <Work />
       <Passion />
-      {/* <Projects /> */}
+      <Projects />
     </>
   );
 }
