@@ -4,29 +4,22 @@ export const ProjectList = () => {
   const projectData = [
     {
       id: 1,
-      title: "Fullstack e-commerce app",
-      description:
-        "Fullstack web store using React, Next.js, Supabase and Payment APIs",
-      link: "/",
+      title: "nottoto",
+      description: "A fullstack web app for managing your notes efficiently.",
+      link: "https://github.com/paulbgtr/nottoto",
     },
     {
       id: 2,
-      title: "Web app for a local business",
-      description: "Web app for a local business using React and Next.js",
-      link: "https://github.com/Appstatis/alfapro",
+      title: "recipify",
+      description:
+        "A fullstack web app for finding recipes based on ingredients you have.",
+      link: "https://github.com/paulbgtr/recipify",
     },
     {
       id: 3,
-      title: "Backend of a todo app",
-      description: "API of a todo app using Postgres and Actix Web",
-      link: "https://github.com/Gibsol/todo_rs",
-    },
-    {
-      id: 4,
-      title: "CLI pomodoro timer application",
-      description:
-        "A simple terminal app written in C++ to boost your productivity",
-      link: "https://github.com/Gibsol/pomodoro-cli",
+      title: "pomodoro cli",
+      description: "A CLI tool for managing your work sessions.",
+      link: "http://github.com/paulbgtr/pomodoro-cli",
     },
   ];
 
