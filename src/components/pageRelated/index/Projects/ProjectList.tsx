@@ -5,7 +5,8 @@ export const ProjectList = () => {
     {
       id: 1,
       title: "nottoto",
-      description: "A fullstack web app for managing your notes efficiently.",
+      description:
+        "A fullstack CLI frontend + backend application for managing notes.",
       link: "https://github.com/paulbgtr/nottoto",
     },
     {
