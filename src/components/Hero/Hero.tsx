@@ -1,5 +1,9 @@
+"use client";
+
 import { PersonalLink } from "./PersonalLink";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 
 const Header = () => {
   return (
@@ -25,17 +29,37 @@ const PersonalLinks = () => {
         icon={GitHubLogoIcon}
         title="Github"
       />
-      <PersonalLink link="#projects" title="Projects" />
     </div>
+  );
+};
+
+const AnimatedContent = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const variants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
+  return (
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={isInView ? "visible" : "hidden"}
+      variants={variants}
+      transition={{ duration: 0.5 }}
+    >
+      <Header />
+      <PersonalLinks />
+    </motion.div>
   );
 };
 
 export const Hero = () => {
   return (
-    <section className="grid items-center justify-center min-h-screen">
+    <section className="grid items-center justify-center min-h-[80vh]">
       <article className="space-y-2">
-        <Header />
-        <PersonalLinks />
+        <AnimatedContent />
       </article>
     </section>
   );
