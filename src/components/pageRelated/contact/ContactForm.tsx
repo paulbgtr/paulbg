@@ -108,7 +108,7 @@ export const ContactForm = () => {
             placeholder="Message"
             className="textarea textarea-bordered textarea-md"
           ></textarea>
-          <button className="btn">Submit</button>
+          <button className="btn btn-primary">Submit</button>
         </div>
       </form>
       {isError && (
