@@ -10,8 +10,8 @@ export const Project = ({
   link: string;
 }) => {
   return (
-    <Link className="duration-200 hover:opacity-90" href={link}>
-      <div className="h-full shadow-md card image-full">
+    <Link href={link}>
+      <div className="h-full duration-200 border-2 shadow-md hover:text-white hover:bg-primary border-primary card bg-base-100">
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
           <p>{description}</p>
