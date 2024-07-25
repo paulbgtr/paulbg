@@ -9,10 +9,7 @@ export const Connect = () => {
       <Link className="btn" href="https://github.com/paulbgtr">
         <FaGithub size="22" />
       </Link>
-      <Link
-        className="btn"
-        href="https://www.linkedin.com/in/paul-bogatyr-65945524b/"
-      >
+      <Link className="btn" href="https://www.linkedin.com/in/paulbg0">
         <FaLinkedin size="22" />
       </Link>
       <Link className="btn" href="/contact">
