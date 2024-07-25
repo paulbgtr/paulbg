@@ -1,13 +1,26 @@
 import Head from "next/head";
-
 import { Header } from "@/components/Header";
 import { Connect } from "@/components/pageRelated/index/Connect";
 import { Work } from "@/components/pageRelated/index/Work";
 import { Passion } from "@/components/pageRelated/index/Passion";
 import { Projects } from "@/components/pageRelated/index/Projects";
 import { Bio } from "@/components/pageRelated/index/Bio";
+import { motion } from "framer-motion";
 
 export default function Home() {
+  const animationVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: (i: number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.3,
+        duration: 0.6,
+        ease: [0.42, 0, 0.58, 1], // Ease-in-out cubic-bezier
+      },
+    }),
+  };
+
   return (
     <>
       <Head>
@@ -20,17 +33,52 @@ export default function Home() {
       </Head>
 
       <main className="space-y-5">
-        <Header
-          image
-          title="Paul Bogatyr"
-          description="Crafting Digital Dreams: Fullstack Web Wizardry"
+        <motion.div
+          custom={0}
+          initial="hidden"
+          animate="visible"
+          variants={animationVariants}
         >
-          <Connect />
-        </Header>
-        <Work />
-        <Projects />
-        <Bio />
-        <Passion />
+          <Header
+            image
+            title="Paul Bogatyr"
+            description="Crafting Digital Dreams: Fullstack Web Wizardry"
+          >
+            <Connect />
+          </Header>
+        </motion.div>
+        <motion.div
+          custom={1}
+          initial="hidden"
+          animate="visible"
+          variants={animationVariants}
+        >
+          <Work />
+        </motion.div>
+        <motion.div
+          custom={2}
+          initial="hidden"
+          animate="visible"
+          variants={animationVariants}
+        >
+          <Projects />
+        </motion.div>
+        <motion.div
+          custom={3}
+          initial="hidden"
+          animate="visible"
+          variants={animationVariants}
+        >
+          <Bio />
+        </motion.div>
+        <motion.div
+          custom={4}
+          initial="hidden"
+          animate="visible"
+          variants={animationVariants}
+        >
+          <Passion />
+        </motion.div>
       </main>
     </>
   );
