@@ -5,6 +5,7 @@ import { Connect } from "@/components/pageRelated/index/Connect";
 import { Work } from "@/components/pageRelated/index/Work";
 import { Passion } from "@/components/pageRelated/index/Passion";
 import { Projects } from "@/components/pageRelated/index/Projects";
+import { Bio } from "@/components/pageRelated/index/Bio";
 
 export default function Home() {
   return (
@@ -18,16 +19,19 @@ export default function Home() {
         <link rel="icon" href="/pfp.jpeg" />
       </Head>
 
-      <Header
-        image
-        title="Paul Bogatyr"
-        description="Crafting Digital Dreams: Fullstack Web Wizardry"
-      >
-        <Connect />
-      </Header>
-      <Work />
-      <Projects />
-      <Passion />
+      <main className="space-y-5">
+        <Header
+          image
+          title="Paul Bogatyr"
+          description="Crafting Digital Dreams: Fullstack Web Wizardry"
+        >
+          <Connect />
+        </Header>
+        <Work />
+        <Projects />
+        <Bio />
+        <Passion />
+      </main>
     </>
   );
 }
