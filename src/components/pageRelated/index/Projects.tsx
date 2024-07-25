@@ -1,9 +1,10 @@
 import { ProjectList } from "./Projects/ProjectList";
+import { Heading } from "@/components/Heading";
 
 export const Projects = () => {
   return (
-    <section className="flex flex-col gap-2">
-      <h2 className="text-xl font-bold">Projects</h2>
+    <section className="flex flex-col gap-2 space-y-4">
+      <Heading text="Projects" />
       <ProjectList />
     </section>
   );
