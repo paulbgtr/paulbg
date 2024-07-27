@@ -2,41 +2,32 @@ import { Header } from "@/components/Header";
 import { BlogPostList } from "@/components/pageRelated/blog/BlogPostList";
 import type { Post } from "@/types/Post";
 import { sortPosts } from "@/utilts/sortPosts";
+import path from "path";
+import fs from "fs";
+import matter from "gray-matter";
 
-const posts: Post[] = [
-  {
-    id: 1,
-    title: "Post 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    date: "2022-01-01",
-  },
-  {
-    id: 2,
-    title: "Post 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    date: "2022-01-02",
-  },
-  {
-    id: 3,
-    title: "Post 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    date: "2022-01-03",
-  },
-  {
-    id: 5,
-    title: "Post 5",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    date: "2022-01-04",
-  },
-  {
-    id: 4,
-    title: "Post 4",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    date: "2022-01-04",
-  },
-];
+export async function getStaticProps() {
+  const postsDir = path.join(process.cwd(), "public/posts");
+  const filenames = fs.readdirSync(postsDir);
 
-export default function Blog() {
+  const posts = filenames.map((filename) => {
+    const filePath = path.join(postsDir, filename);
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const { data } = matter(fileContents);
+    return {
+      id: filename.replace(/\.md$/, ""),
+      ...data,
+    };
+  });
+
+  return {
+    props: {
+      posts,
+    },
+  };
+}
+
+export default function Blog({ posts }: { posts: Post[] }) {
   return (
     <article>
       <Header
