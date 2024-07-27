@@ -11,7 +11,7 @@ export const Navbar = () => {
       <div className="flex-none">
         <ul className="px-1 menu menu-horizontal">
           <li>
-            <Link href="https://paulbg.hashnode.dev/">Posts</Link>
+            <Link href="/blog">Blog</Link>
           </li>
         </ul>
       </div>
