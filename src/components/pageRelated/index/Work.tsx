@@ -6,13 +6,14 @@ export const Work = () => {
       <Heading text="My Journey in Tech" />
       <p>
         I am a passionate full-stack developer with a love for building dynamic
-        and responsive web applications. My expertise includes:
+        and responsive web applications.
       </p>
+      <p>My typical stack is:</p>
       <ul className="mb-4 space-y-2 list-disc list-inside">
-        <li>⚛️ React & Next.js</li>
-        <li>🐘 PostgreSQL</li>
-        <li>🐬 MySQL</li>
-        <li>🟢 Node.js & Express</li>
+        <li>React & Next.js</li>
+        <li>PostgreSQL</li>
+        <li>MySQL</li>
+        <li>Node.js & Express</li>
       </ul>
       <p>
         I also have experience with <span className="font-semibold">Rust</span>,{" "}
