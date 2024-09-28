@@ -1,24 +1,28 @@
 import { Project } from "./Project";
+import { FaBook, FaUtensilSpoon, FaHourglassEnd } from "react-icons/fa";
 
 export const ProjectList = () => {
   const projectData = [
     {
       id: 1,
-      title: "📔 nottoto",
+      icon: <FaBook />,
+      title: "nottoto",
       description:
         "A fullstack CLI frontend + backend application for managing notes.",
       link: "https://github.com/paulbgtr/nottoto",
     },
     {
       id: 2,
-      title: "🥗 recipify",
+      icon: <FaUtensilSpoon />,
+      title: "recipify",
       description:
         "A fullstack web app for finding recipes based on ingredients you have.",
       link: "https://github.com/paulbgtr/recipify",
     },
     {
       id: 3,
-      title: "🍅 pomodoro cli",
+      icon: <FaHourglassEnd />,
+      title: "pomodoro cli",
       description: "A CLI tool for managing your work sessions.",
       link: "http://github.com/paulbgtr/pomodoro-cli",
     },
@@ -29,6 +33,7 @@ export const ProjectList = () => {
       {projectData.map((project) => (
         <Project
           key={project.id}
+          icon={project.icon}
           title={project.title}
           description={project.description}
           link={project.link}
