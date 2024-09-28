@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const Navbar = () => {
   return (
@@ -10,8 +11,9 @@ export const Navbar = () => {
       </div>
       <div className="flex-none">
         <ul className="px-1 menu menu-horizontal">
+          <li>{/* <Link href="/blog">Blog</Link> */}</li>
           <li>
-            <Link href="/blog">Blog</Link>
+            <Link href="https://ko-fi.com/paulbg">Tip Me</Link>
           </li>
         </ul>
       </div>
