@@ -29,7 +29,7 @@ export default function Home() {
           name="description"
           content="Crafting Digital Dreams: Fullstack Web Wizardry"
         />
-        <link rel="icon" href="/pfp.jpeg" />
+        <link rel="icon" href="/pfp.jpg" />
       </Head>
 
       <main className="space-y-5">

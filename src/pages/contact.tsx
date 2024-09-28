@@ -12,7 +12,7 @@ const Contact = () => {
           name="description"
           content="Crafting Digital Dreams: Fullstack Web Wizardry"
         />
-        <link rel="icon" href="/pfp.jpeg" />
+        <link rel="icon" href="/pfp.jpg" />
       </Head>
 
       <div className="w-full md:w-72 justify-self-center">
