@@ -6,7 +6,7 @@ export const Passion = () => {
       <Heading text="Passion" />
       <p>
         Besides coding, I love rocking out on instruments, staying fit, spending
-        time with loved ones, and diving into books. 🎸🏋️‍♂️❤️📚
+        time with loved ones, and diving into books.
       </p>
     </section>
   );
