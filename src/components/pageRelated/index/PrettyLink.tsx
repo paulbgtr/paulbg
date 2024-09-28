@@ -9,7 +9,7 @@ export const PrettyLink = ({
 }) => {
   return (
     <Link
-      className="font-bold underline duration-200 hover:text-white text-primary"
+      className="font-bold underline duration-200 hover:opacity-80"
       href={href}
     >
       {children}
