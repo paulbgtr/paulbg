@@ -8,11 +8,11 @@ export const Projects = () => {
       <Heading text="Projects" />
       <ProjectList />
       <p className="italic">
-        P.S. More cool projects on my{" "}
+        Check out my other projects on{" "}
         <PrettyLink href="https://github.com/paulbgtr?tab=repositories">
           GitHub
         </PrettyLink>
-        . 🌟
+        .
       </p>
     </section>
   );
