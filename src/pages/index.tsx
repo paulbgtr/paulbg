@@ -42,7 +42,7 @@ export default function Home() {
           <Header
             image
             title="Paul Bogatyr"
-            description="Crafting digital realities from the void."
+            description="Building impactful digital experiences."
           >
             <Connect />
           </Header>
