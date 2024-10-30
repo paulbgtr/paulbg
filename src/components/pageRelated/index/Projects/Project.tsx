@@ -12,14 +12,12 @@ export const Project = ({
   link: string;
 }) => {
   return (
-    <Link href={link}>
-      <div className="h-full duration-200 border-4 shadow-md hover:bg-primary border-primary card bg-base-100">
-        <div className="card-body">
-          <h2 className="card-title">
-            {icon}
-            {title}
-          </h2>
-          <p>{description}</p>
+    <Link href={link} className="block p-4 transition-colors hover:bg-base-200">
+      <div className="flex items-center gap-3">
+        <span className="text-primary">{icon}</span>
+        <div>
+          <h3 className="font-bold">{title}</h3>
+          <p className="text-sm text-base-content/70">{description}</p>
         </div>
       </div>
     </Link>
