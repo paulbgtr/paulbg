@@ -7,8 +7,7 @@ export const ProjectList = () => {
       id: 1,
       icon: <FaBook />,
       title: "nottoto",
-      description:
-        "A fullstack CLI frontend + backend application for managing notes.",
+      description: "A full-stack CLI application for managing notes.",
       link: "https://github.com/paulbgtr/nottoto",
     },
     {
@@ -16,14 +15,14 @@ export const ProjectList = () => {
       icon: <FaUtensilSpoon />,
       title: "recipify",
       description:
-        "A fullstack web app for finding recipes based on ingredients you have.",
+        "A full-stack web app for finding recipes based on ingredients.",
       link: "https://github.com/paulbgtr/recipify",
     },
     {
       id: 3,
       icon: <FaHourglassEnd />,
       title: "pomodoro cli",
-      description: "A CLI tool for managing your work sessions.",
+      description: "A CLI tool for managing work sessions.",
       link: "http://github.com/paulbgtr/pomodoro-cli",
     },
   ];
