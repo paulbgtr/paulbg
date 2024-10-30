@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaLinkedin, FaThreads } from "react-icons/fa6";
 
 export const Connect = () => {
   return (
@@ -16,6 +16,9 @@ export const Connect = () => {
       </Link>
       <Link className="btn btn-ghost" href="/contact">
         <FaEnvelope size="22" />
+      </Link>
+      <Link className="btn btn-ghost" href="https://www.threads.net/@paulbgtr">
+        <FaThreads size="22" />
       </Link>
     </div>
   );
