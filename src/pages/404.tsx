@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>Paul Bogatyr / 404</title>
+        <title>paulbg / 404</title>
         <meta
           name="description"
           content="Crafting Digital Dreams: Fullstack Web Wizardry"
