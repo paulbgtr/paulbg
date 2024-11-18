@@ -1,3 +1,3 @@
 export const Heading = ({ text }: { text: string }) => {
-  return <h2 className="text-2xl italic font-extrabold">{text}</h2>;
+  return <h2 className="text-xl font-bold">{text}</h2>;
 };
