@@ -1,4 +1,3 @@
-import { PrettyLink } from "./PrettyLink";
 import { ProjectList } from "./Projects/ProjectList";
 import { Heading } from "@/components/Heading";
 
