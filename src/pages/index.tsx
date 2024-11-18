@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { Header } from "@/components/Header";
 import { Connect } from "@/components/pageRelated/index/Connect";
-import { Work } from "@/components/pageRelated/index/Work";
-import { Passion } from "@/components/pageRelated/index/Passion";
 import { Projects } from "@/components/pageRelated/index/Projects";
 import { Bio } from "@/components/pageRelated/index/Bio";
 import { motion } from "framer-motion";
@@ -24,7 +22,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Paul Bogatyr / Home </title>
+        <title>paulbg</title>
         <meta
           name="description"
           content="Crafting Digital Dreams: Fullstack Web Wizardry"
@@ -39,13 +37,7 @@ export default function Home() {
           animate="visible"
           variants={animationVariants}
         >
-          <Header
-            image
-            title="Paul Bogatyr"
-            description="Building impactful digital experiences."
-          >
-            <Connect />
-          </Header>
+          <Header />
         </motion.div>
         <motion.div
           custom={1}
@@ -53,7 +45,7 @@ export default function Home() {
           animate="visible"
           variants={animationVariants}
         >
-          <Work />
+          <Projects />
         </motion.div>
         <motion.div
           custom={2}
@@ -61,7 +53,7 @@ export default function Home() {
           animate="visible"
           variants={animationVariants}
         >
-          <Projects />
+          <Bio />
         </motion.div>
         <motion.div
           custom={3}
@@ -69,15 +61,7 @@ export default function Home() {
           animate="visible"
           variants={animationVariants}
         >
-          <Bio />
-        </motion.div>
-        <motion.div
-          custom={4}
-          initial="hidden"
-          animate="visible"
-          variants={animationVariants}
-        >
-          <Passion />
+          <Connect />
         </motion.div>
       </main>
     </>
