@@ -12,13 +12,22 @@ export const Project = ({
   link: string;
 }) => {
   return (
-    <Link href={link} className="block p-4 transition-colors hover:bg-base-200">
-      <div className="flex items-center gap-3">
-        <span className="text-primary">{icon}</span>
-        <div>
-          <h3 className="font-bold">{title}</h3>
-          <p className="text-sm text-base-content/70">{description}</p>
+    <Link
+      href={link}
+      className="relative flex items-center gap-2 px-3 py-2 transition-all rounded-lg group hover:bg-base-200"
+    >
+      <span className="text-sm text-gray-500 transition-colors group-hover:text-primary">
+        {icon}
+      </span>
+
+      <div className="flex-1 min-w-0">
+        <div className="flex items-baseline gap-1">
+          <h3 className="font-medium truncate">{title}</h3>
+          <span className="hidden text-xs opacity-50 group-hover:inline">
+            ↗
+          </span>
         </div>
+        <p className="text-xs text-gray-500 truncate">{description}</p>
       </div>
     </Link>
   );
