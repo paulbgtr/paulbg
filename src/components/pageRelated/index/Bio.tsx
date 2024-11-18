@@ -9,9 +9,7 @@ interface BioItemProps {
 const BioItem = ({ year, title, description }: BioItemProps) => (
   <div className="mb-6 group last:mb-0">
     <div className="space-y-1">
-      <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-        {year}
-      </span>
+      <span className="text-sm text-gray-500 dark:text-gray-400">{year}</span>
       <h3 className="font-bold text-gray-900 transition-colors dark:text-gray-100 group-hover:text-gray-700 dark:group-hover:text-gray-300">
         {title}
       </h3>
