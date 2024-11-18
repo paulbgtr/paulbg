@@ -3,7 +3,7 @@ import { Heading } from "@/components/Heading";
 
 export const Projects = () => {
   return (
-    <section className="flex flex-col gap-2 space-y-3">
+    <section className="space-y-2">
       <Heading text="Projects" />
       <ProjectList />
     </section>

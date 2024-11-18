@@ -14,7 +14,7 @@ export const Project = ({
   return (
     <Link
       href={link}
-      className="relative flex items-center gap-2 px-3 py-2 transition-all rounded-lg group hover:bg-base-200"
+      className="relative flex items-center gap-2 p-3 transition-all rounded-lg group hover:bg-base-200"
     >
       <span className="text-sm text-gray-500 transition-colors group-hover:text-primary">
         {icon}
@@ -22,12 +22,16 @@ export const Project = ({
 
       <div className="flex-1 min-w-0">
         <div className="flex items-baseline gap-1">
-          <h3 className="font-medium truncate">{title}</h3>
+          <h3 className="font-medium text-gray-900 dark:text-gray-100 truncate">
+            {title}
+          </h3>
           <span className="hidden text-xs opacity-50 group-hover:inline">
             ↗
           </span>
         </div>
-        <p className="text-xs text-gray-500 truncate">{description}</p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 truncate">
+          {description}
+        </p>
       </div>
     </Link>
   );
