@@ -5,11 +5,13 @@ export const Project = ({
   title,
   description,
   link,
+  timeframe,
 }: {
   icon: React.ReactNode;
   title: string;
   description: string;
   link: string;
+  timeframe?: string;
 }) => {
   return (
     <Link
@@ -22,14 +24,17 @@ export const Project = ({
 
       <div className="flex-1 min-w-0">
         <div className="flex items-baseline gap-1">
-          <h3 className="font-medium text-gray-900 dark:text-gray-100 truncate">
+          <h3 className="font-medium text-gray-900 truncate dark:text-gray-100">
             {title}
           </h3>
+          {timeframe && (
+            <span className="text-xs text-gray-500">{timeframe}</span>
+          )}
           <span className="hidden text-xs opacity-50 group-hover:inline">
             ↗
           </span>
         </div>
-        <p className="text-sm text-gray-600 dark:text-gray-400 truncate">
+        <p className="text-sm text-gray-600 truncate dark:text-gray-400">
           {description}
         </p>
       </div>
