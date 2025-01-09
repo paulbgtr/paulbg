@@ -10,7 +10,8 @@ export const ProjectList = () => {
       id: 1,
       icon: <FaStickyNote />,
       title: "nebriq",
-      description: "AI note-taking app for the browser.",
+      description:
+        "minimalist writing app with smart search and AI assistance for distraction-free writing.",
       link: "https://nebriq.com",
       timeframe: "2024 - Present",
     },
