@@ -47,16 +47,16 @@ export default function Home() {
         >
           <Projects />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           custom={2}
           initial="hidden"
           animate="visible"
           variants={animationVariants}
         >
           <Bio />
-        </motion.div>
+        </motion.div> */}
         <motion.div
-          custom={3}
+          custom={2}
           initial="hidden"
           animate="visible"
           variants={animationVariants}
