@@ -24,9 +24,7 @@ export const Project = ({
 
       <div className="flex-1 min-w-0">
         <div className="flex items-baseline gap-1">
-          <h3 className="font-medium text-gray-900 truncate dark:text-gray-100">
-            {title}
-          </h3>
+          <h3 className="font-medium truncate text-gray-100">{title}</h3>
           {timeframe && (
             <span className="text-xs text-gray-500">{timeframe}</span>
           )}
@@ -34,9 +32,7 @@ export const Project = ({
             ↗
           </span>
         </div>
-        <p className="text-sm text-gray-600 truncate dark:text-gray-400">
-          {description}
-        </p>
+        <p className="text-sm text-gray-400">{description}</p>
       </div>
     </Link>
   );

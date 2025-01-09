@@ -11,7 +11,7 @@ export const Header = () => {
           <p className="text-sm">Tallinn, Estonia</p>
         </span>
 
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-gray-400">
           I&apos;m a full-stack developer who loves turning ideas into
           functional web applications. I&apos;m driven by the challenge of
           solving real problems through clean, creative code that makes a

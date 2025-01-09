@@ -11,7 +11,7 @@ const LinkItem = ({ href, label }: LinkItemProps) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="relative block transition-colors hover:text-gray-600 dark:hover:text-gray-300 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:bg-current after:transition-all after:duration-300 hover:after:w-0"
+    className="relative block transition-colors hover:text-gray-600 hover:text-gray-300 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:bg-current after:transition-all after:duration-300 hover:after:w-0"
   >
     {label}
   </Link>
