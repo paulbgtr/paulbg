@@ -16,7 +16,7 @@ export const Project = ({
   return (
     <Link
       href={link}
-      className="relative flex items-center gap-2 p-3 transition-all rounded-lg group hover:bg-base-200"
+      className="relative flex items-center gap-2 p-3 transition-all rounded-lg group hover:bg-base-200 max-w-sm"
     >
       <span className="text-sm text-gray-500 transition-colors group-hover:text-primary">
         {icon}
