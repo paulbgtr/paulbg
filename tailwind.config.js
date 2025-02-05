@@ -13,18 +13,33 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        mono: {
-          50: "#fafafa",
-          100: "#f5f5f5",
-          200: "#e5e5e5",
-          300: "#d4d4d4",
-          400: "#a3a3a3",
-          500: "#737373",
-          600: "#525252",
-          700: "#404040",
-          800: "#262626",
-          900: "#171717",
-          950: "#0a0a0a",
+        ctp: {
+          rosewater: "#f5e0dc",
+          flamingo: "#f2cdcd",
+          pink: "#f5c2e7",
+          mauve: "#cba6f7",
+          red: "#f38ba8",
+          maroon: "#eba0ac",
+          peach: "#fab387",
+          yellow: "#f9e2af",
+          green: "#a6e3a1",
+          teal: "#94e2d5",
+          sky: "#89dceb",
+          sapphire: "#74c7ec",
+          blue: "#89b4fa",
+          lavender: "#b4befe",
+          text: "#cdd6f4",
+          subtext1: "#bac2de",
+          subtext0: "#a6adc8",
+          overlay2: "#9399b2",
+          overlay1: "#7f849c",
+          overlay0: "#6c7086",
+          surface2: "#585b70",
+          surface1: "#45475a",
+          surface0: "#313244",
+          base: "#1e1e2e",
+          mantle: "#181825",
+          crust: "#11111b"
         },
       },
     },
@@ -33,18 +48,18 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        monochrome: {
-          primary: "#737373", // mono-500
-          secondary: "#404040", // mono-700
-          accent: "#a3a3a3", // mono-400
-          neutral: "#262626", // mono-800
-          "base-100": "#171717", // mono-900
-          "base-200": "#0a0a0a", // mono-950
-          "base-content": "#f5f5f5", // mono-100
-          info: "#525252", // mono-600
-          success: "#d4d4d4", // mono-300
-          warning: "#e5e5e5", // mono-200
-          error: "#262626", // mono-800
+        catppuccin: {
+          primary: "#cba6f7",    // mauve
+          secondary: "#89b4fa",  // blue
+          accent: "#f5c2e7",     // pink
+          neutral: "#313244",    // surface0
+          "base-100": "#1e1e2e", // base
+          "base-200": "#181825", // mantle
+          "base-content": "#cdd6f4", // text
+          info: "#74c7ec",      // sapphire
+          success: "#a6e3a1",    // green
+          warning: "#f9e2af",    // yellow
+          error: "#f38ba8",      // red
         },
       },
     ],
