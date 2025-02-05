@@ -1,8 +1,9 @@
 import { Project } from "./Project";
-import { FaBook, FaHourglassEnd } from "react-icons/fa";
+import { FaBook } from "react-icons/fa";
 import { FaBluesky } from "react-icons/fa6";
 import { IoBrowsers } from "react-icons/io5";
 import { FaStickyNote } from "react-icons/fa";
+import { RiFilePaper2Fill } from "react-icons/ri";
 
 export const ProjectList = () => {
   const projectData = [
@@ -22,6 +23,14 @@ export const ProjectList = () => {
       description: "full-stack CLI application for managing notes.",
       link: "https://github.com/paulbgtr/nottoto",
       timeframe: "2023",
+    },
+    {
+      id: 3,
+      icon: <RiFilePaper2Fill />,
+      title: "papergram next",
+      description: "scroll ai papers instead of tiktok.",
+      link: "https://papergramnext.vercel.app/",
+      timeframe: "2025",
     },
     {
       id: 4,
