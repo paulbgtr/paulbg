@@ -12,7 +12,7 @@ export const ProjectList = () => {
       icon: <FaStickyNote />,
       title: "nebriq",
       description:
-        "minimalist writing app with smart search and AI assistance for distraction-free writing.",
+        "a distraction-free writing space where ideas flow naturally. ai-powered, minimalist, and built for clarity.",
       link: "https://nebriq.com",
       timeframe: "2024 - Present",
     },
@@ -36,7 +36,7 @@ export const ProjectList = () => {
       id: 4,
       icon: <FaBluesky />,
       title: "skeetsched",
-      description: "scheduling app for BlueSky.",
+      description: "scheduling app for bluesky.",
       link: "http://github.com/paulbgtr/skeetsched",
       timeframe: "2024",
     },

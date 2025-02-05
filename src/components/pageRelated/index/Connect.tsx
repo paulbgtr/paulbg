@@ -22,10 +22,10 @@ export const Connect = () => {
     <section className="space-y-2">
       <Heading text="Connect" />
       <div className="flex gap-4">
-        <LinkItem href="https://github.com/paulbgtr" label="GitHub" />
-        <LinkItem href="https://linkedin.com/in/paulbg0" label="LinkedIn" />
-        <LinkItem href="https://x.com/paulbgtr" label="Twitter" />
-        <LinkItem href="mailto:paul@appstatis.com" label="Email" />
+        <LinkItem href="https://github.com/paulbgtr" label="github" />
+        <LinkItem href="https://linkedin.com/in/paulbg0" label="linkedin" />
+        <LinkItem href="https://x.com/paulbgtr" label="x/twitter" />
+        <LinkItem href="mailto:paul@appstatis.com" label="email" />
       </div>
     </section>
   );
