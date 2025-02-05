@@ -12,8 +12,8 @@ export const Header = () => {
         </span>
 
         <p className="text-sm text-gray-400">
-          software engineer interested in startups, ml, mathematics. submitted
-          to computer god.
+          software engineer. into startups, ml, mathematics. submitted to
+          computer god.
         </p>
       </div>
     </section>
