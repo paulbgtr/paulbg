@@ -49,17 +49,17 @@ module.exports = {
     themes: [
       {
         catppuccin: {
-          primary: "#cba6f7",    // mauve
-          secondary: "#89b4fa",  // blue
-          accent: "#f5c2e7",     // pink
-          neutral: "#313244",    // surface0
-          "base-100": "#1e1e2e", // base
-          "base-200": "#181825", // mantle
-          "base-content": "#cdd6f4", // text
-          info: "#74c7ec",      // sapphire
-          success: "#a6e3a1",    // green
-          warning: "#f9e2af",    // yellow
-          error: "#f38ba8",      // red
+          primary: "#cc0000",    // deep ruby red
+          secondary: "#990000",  // darker ruby
+          accent: "#800000",     // darkest ruby
+          neutral: "#13131a",    // darkest surface
+          "base-100": "#0d0d12", // darker base
+          "base-200": "#0a0a0e", // darkest base
+          "base-content": "#e0e0e0", // softer text
+          info: "#7aa2f7",      // bright blue
+          success: "#9ece6a",    // nature green
+          warning: "#e0af68",    // warm yellow
+          error: "#800000",      // deep ruby red
         },
       },
     ],
