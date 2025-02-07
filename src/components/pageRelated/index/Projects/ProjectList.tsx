@@ -1,6 +1,5 @@
 import { Project } from "./Project";
 import { FaBluesky } from "react-icons/fa6";
-import { IoBrowsers } from "react-icons/io5";
 import { FaStickyNote } from "react-icons/fa";
 import { RiFilePaper2Fill } from "react-icons/ri";
 import { FaBrain } from "react-icons/fa6";
@@ -41,14 +40,6 @@ export const ProjectList = () => {
       description: "scheduling app for bluesky.",
       link: "http://github.com/paulbgtr/skeetsched",
       timeframe: "2024",
-    },
-    {
-      id: 5,
-      icon: <IoBrowsers />,
-      title: "appstatis landing page",
-      description: "landing page for software company.",
-      link: "https://www.appstatis.com/",
-      timeframe: "2023",
     },
   ] satisfies {
     id: number;
