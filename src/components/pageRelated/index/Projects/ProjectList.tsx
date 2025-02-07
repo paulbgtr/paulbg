@@ -1,9 +1,10 @@
 import { Project } from "./Project";
-import { FaBook } from "react-icons/fa";
 import { FaBluesky } from "react-icons/fa6";
 import { IoBrowsers } from "react-icons/io5";
 import { FaStickyNote } from "react-icons/fa";
 import { RiFilePaper2Fill } from "react-icons/ri";
+import { FaBrain } from "react-icons/fa6";
+import Link from "next/link";
 
 export const ProjectList = () => {
   const projectData = [
@@ -18,11 +19,12 @@ export const ProjectList = () => {
     },
     {
       id: 2,
-      icon: <FaBook />,
-      title: "nottoto",
-      description: "full-stack CLI application for managing notes.",
-      link: "https://github.com/paulbgtr/nottoto",
-      timeframe: "2023",
+      icon: <FaBrain />,
+      title: "brainthink",
+      description:
+        "a media platform that fights brainrot by prioritizing intellectual growth and meaningful content.",
+      link: "https://brainth.ink",
+      timeframe: "2025 - Present",
     },
     {
       id: 3,
@@ -69,6 +71,14 @@ export const ProjectList = () => {
           timeframe={project.timeframe}
         />
       ))}
+      <Link
+        href="https://github.com/paulbgtr?tab=repositories"
+        className="block w-full p-2 text-center text-sm text-gray-400 hover:text-gray-300 transition-colors rounded-lg hover:bg-base-200"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        all projects →
+      </Link>
     </div>
   );
 };
