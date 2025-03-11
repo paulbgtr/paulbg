@@ -20,7 +20,7 @@ const LinkItem = ({ href, label }: LinkItemProps) => (
 export const Connect = () => {
   return (
     <section className="space-y-2">
-      <Heading text="Connect" />
+      <Heading text="connect" />
       <div className="flex gap-4">
         <LinkItem href="https://github.com/paulbgtr" label="github" />
         <LinkItem href="https://linkedin.com/in/paulbg0" label="linkedin" />
