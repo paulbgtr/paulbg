@@ -2,7 +2,6 @@ import Head from "next/head";
 import { Header } from "@/components/Header";
 import { Connect } from "@/components/pageRelated/index/Connect";
 import { Projects } from "@/components/pageRelated/index/Projects";
-import { Bio } from "@/components/pageRelated/index/Bio";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -47,14 +46,6 @@ export default function Home() {
         >
           <Projects />
         </motion.div>
-        {/* <motion.div
-          custom={2}
-          initial="hidden"
-          animate="visible"
-          variants={animationVariants}
-        >
-          <Bio />
-        </motion.div> */}
         <motion.div
           custom={2}
           initial="hidden"
