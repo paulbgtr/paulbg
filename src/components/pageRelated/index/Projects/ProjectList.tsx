@@ -1,5 +1,5 @@
 import { Project } from "./Project";
-import { FaBluesky } from "react-icons/fa6";
+import { GiLipstick } from "react-icons/gi";
 import { FaStickyNote } from "react-icons/fa";
 import { RiFilePaper2Fill } from "react-icons/ri";
 import { FaBrain } from "react-icons/fa6";
@@ -35,11 +35,11 @@ export const ProjectList = () => {
     },
     {
       id: 4,
-      icon: <FaBluesky />,
-      title: "skeetsched",
-      description: "scheduling app for bluesky.",
-      link: "http://github.com/paulbgtr/skeetsched",
-      timeframe: "2024",
+      icon: <GiLipstick />,
+      title: "talente",
+      description: "local business landing page design and implementation.",
+      link: "https://talente-first.vercel.app/",
+      timeframe: "2025",
     },
   ] satisfies {
     id: number;
@@ -64,7 +64,7 @@ export const ProjectList = () => {
       ))}
       <Link
         href="https://github.com/paulbgtr?tab=repositories"
-        className="block w-full p-2 text-center text-sm text-gray-400 hover:text-gray-300 transition-colors rounded-lg hover:bg-base-200"
+        className="block mt-4 text-xs text-gray-500 hover:text-gray-300 transition-colors"
         target="_blank"
         rel="noopener noreferrer"
       >
