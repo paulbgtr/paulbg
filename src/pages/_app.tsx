@@ -5,7 +5,6 @@ import { Space_Mono } from "next/font/google";
 const spaceMono = Space_Mono({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-space-mono",
 });
 
 import { Layout } from "@/components/Layout";
