@@ -29,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/pfp.jpg" />
       </Head>
 
-      <main className="space-y-5">
+      <main className="relative z-10 space-y-5">
         <motion.div
           custom={0}
           initial="hidden"
