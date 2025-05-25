@@ -23,9 +23,7 @@ export const Connect = () => {
       <Heading text="connect" />
       <div className="flex gap-4">
         <LinkItem href="https://github.com/paulbgtr" label="github" />
-        <LinkItem href="https://linkedin.com/in/paulbg0" label="linkedin" />
-        <LinkItem href="https://x.com/paulbgtr" label="x/twtr" />
-        <LinkItem href="mailto:paul@appstatis.com" label="email" />
+        <LinkItem href="https://techhub.social/@pbg" label="mstdn" />
       </div>
     </section>
   );
