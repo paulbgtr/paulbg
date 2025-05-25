@@ -19,10 +19,10 @@ export const ProjectList = () => {
     {
       id: 2,
       icon: <FaBrain />,
-      title: "brainthink",
+      title: "silent-desk",
       description:
-        "a media platform that fights brainrot by prioritizing intellectual growth and meaningful content.",
-      link: "https://brainth.ink",
+        "an application paired with a simple device, designed to monitor and track the time you spend using a computer.",
+      link: "https://github.com/paulbgtr/silent-desk",
       timeframe: "2025 - Present",
     },
     {
@@ -64,7 +64,7 @@ export const ProjectList = () => {
       ))}
       <Link
         href="https://github.com/paulbgtr?tab=repositories"
-        className="block mt-4 text-xs text-gray-500 hover:text-gray-300 transition-colors"
+        className="block mt-4 text-xs text-gray-500 transition-colors hover:text-gray-300"
         target="_blank"
         rel="noopener noreferrer"
       >
