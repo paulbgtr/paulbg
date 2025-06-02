@@ -116,7 +116,7 @@ const MathBackground: React.FC = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+    <div className="fixed inset-0 z-0 hidden overflow-hidden pointer-events-none md:block">
       {elements.map((el) => {
         // Compute horizontal oscillation: a gentle sway.
         const animatedX =
